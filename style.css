@@ -1,0 +1,8 @@
+.title {
+    font-family: serif;
+    font-size: 2em;
+    padding: 1em;
+    display: flex;
+    place-content: center;
+    border-bottom: 2px solid black;
+}
