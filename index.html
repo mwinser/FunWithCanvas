@@ -7,11 +7,24 @@
 </head>
 <body>
     <div class="title">The world is your canvas...</div>
-    
+    <div class="container">
+        <canvas id="draw" width="400" height="400"></canvas>
+        <div class="controls">
+            <input type="range" id="size" min="0" max="80" value="20" class="slider">
+            <label for="size">Size</label>
+            <div>
+                <input  type="color" 
+                        id="color" 
+                        name="color"
+                        value="#BADA55">
+                <label for="color">Color</label>
+            </div>
+            <button class="clear">Clear</button>
+        </div>
+    </div>
 
-<canvas id="draw" width="400" height="400"></canvas>
 
-<button class="clear">Clear</button>
+
 
 <script src="index.js"></script>
 </body>
